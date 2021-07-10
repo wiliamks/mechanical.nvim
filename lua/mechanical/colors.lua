@@ -26,4 +26,11 @@ local colors = {
     diff_text = { '#2c5372'}
 }
 
-return colors
+local function select_colors()
+    local selected = {}
+    for k, v in pairs(colors) do selected[k] = v[1] end
+		selected['none'] = 'NONE'
+    return selected
+end
+
+return select_colors()
