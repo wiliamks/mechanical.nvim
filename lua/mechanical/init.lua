@@ -1,5 +1,5 @@
 local M = {}
-local highlights = require('mechanel.highlights')
+local highlights = require('mechanical.highlights')
 local terminal = require('mechanical.terminal')
 
 local function colorscheme()
