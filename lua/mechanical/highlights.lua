@@ -373,7 +373,7 @@ function M.setup()
 		vim_highlights(hl.common)
 		vim_highlights(hl.syntax)
     local ns = create_namespace("mechanical")
-    load_highlights(ns, hl.treesitter)
+    --load_highlights(ns, hl.treesitter)
     set_hl_ns(ns)
     for _, group in pairs(hl.langs) do vim_highlights(group) end
     for _, group in pairs(hl.plugins) do vim_highlights(group) end
