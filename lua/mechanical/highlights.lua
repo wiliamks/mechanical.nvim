@@ -136,8 +136,8 @@ hl.syntax = {
     Title = colors.Cyan,
     Tag = colors.Green,
     Delimiter = colors.Fg,
-    Comment = colors.Grey, 
-    SpecialComment = colors.Grey, 
+    Comment = colors.Grey,
+    SpecialComment = colors.Grey,
     Todo = colors.Red
 }
 
@@ -295,7 +295,7 @@ hl.plugins.nvim_tree = {
     NvimTreeFolderName= colors.Blue
 }
 hl.plugins.telescope = {
-    TelescopeBorder = colors.Green,
+    TelescopeBorder = colors.Cyan,
     TelescopeMatching = colors.Yellow,
     TelescopePromptPrefix = colors.Blue,
     TelescopeSelection =  { bg =c.bg2 },
@@ -307,6 +307,12 @@ hl.plugins.dashboard = {
     DashboardHeader = colors.Green,
     DashboardCenter = colors.Blue,
     DashboardFooter = { fg = c.cyan, italic = true}
+}
+
+hl.plugins.dev_icons = {
+	DevIconDockerfile = { fg=colors.Cyan },
+	DevIconGitIgnore = { fg="#ff3e00" },
+	DevIconDart = { fg="#51a0cf" },
 }
 
 hl.langs.markdown = {
