@@ -315,6 +315,13 @@ hl.plugins.dev_icons = {
 	DevIconDart = colors.Blue,
 }
 
+hl.plugins.guihua = {
+	GHTextViewDark = { fg=c.fg, bg=c.bg0 },
+	GHListDark = { fg=c.fg, bg=c.bg0 },
+	GHListHl = { bg=c.grey }
+
+}
+
 hl.langs.markdown = {
     markdownBlockquote = colors.Grey,
     markdownBold = {fg = c.none, bold = true},
