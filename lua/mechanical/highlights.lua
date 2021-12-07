@@ -310,9 +310,9 @@ hl.plugins.dashboard = {
 }
 
 hl.plugins.dev_icons = {
-	DevIconDockerfile = { fg=colors.Cyan },
-	DevIconGitIgnore = { fg="#ff3e00" },
-	DevIconDart = { fg="#51a0cf" },
+	DevIconDockerfile = colors.Cyan,
+	DevIconGitIgnore = colors.Red,
+	DevIconDart = colors.Blue,
 }
 
 hl.langs.markdown = {
