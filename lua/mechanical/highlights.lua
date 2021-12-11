@@ -309,17 +309,19 @@ hl.plugins.dashboard = {
     DashboardFooter = { fg = c.cyan, italic = true}
 }
 
-hl.plugins.dev_icons = {
-	DevIconDockerfile = colors.Cyan,
-	DevIconGitIgnore = colors.Red,
-	DevIconDart = colors.Blue,
-}
-
 hl.plugins.guihua = {
 	GHTextViewDark = { fg=c.fg, bg=c.bg0 },
 	GHListDark = { fg=c.fg, bg=c.bg0 },
 	GHListHl = { bg=c.grey }
+}
 
+hl.plugins.cmp = {
+	CmpItemAbbrMatch = colors.Purple,
+	CmpItemAbbrMatchFuzzy = colors.Purple,
+	CmpItemKindFunction =  colors.Blue,
+	CmpItemKindMethod = colors.Yellow,
+	CmpItemKindVariable = colors.Red,
+	CmpItemKindKeyword = colors.Fg
 }
 
 hl.langs.markdown = {
