@@ -284,21 +284,28 @@ hl.plugins.gitsigns = {
 hl.plugins.nvim_tree = {
     NvimTreeNormal = { fg = c.fg, bg = c.bg_d },
     NvimTreeEndOfBuffer = { fg = c.bg2, bg = c.bg_d },
-    NvimTreeRootFolder = { fg = c.yellow, bold =true},
+    NvimTreeRootFolder = { fg = c.yellow, bold = true},
     NvimTreeGitDirty = colors.Yellow,
     NvimTreeGitNew = colors.Green,
     NvimTreeGitDeleted = colors.Red,
-    NvimTreeSpecialFile = { fg = c.yellow, underline=true },
+    NvimTreeSpecialFile = { fg = c.yellow, underline = true },
     NvimTreeIndentMarker = colors.Fg,
     NvimTreeImageFile = { fg = c.dark_purple },
     NvimTreeSymlink = colors.Purple,
     NvimTreeFolderName= colors.Blue
 }
+
+hl.plugins.neotree = {
+    NeotreeNormal = { fg = c.fg, bg = c.bg_d },
+	NeoTreeNormalNC = { fg = c.fg, bg = c.bg_d },
+	NeoTreeEndOfBuffer = { fg = c.bg_d, bg = c.bg_d }
+}
+
 hl.plugins.telescope = {
     TelescopeBorder = colors.Cyan,
     TelescopeMatching = colors.Yellow,
     TelescopePromptPrefix = colors.Blue,
-    TelescopeSelection =  { bg =c.bg2 },
+    TelescopeSelection =  { bg = c.bg2 },
     TelescopeSelectionCaret = colors.Blue
 }
 
