@@ -413,6 +413,7 @@ hl.langs.scala = {
 function M.setup()
 	vim_highlights(hl.common)
 	vim_highlights(hl.syntax)
+	vim_highlights(hl.treesitter)
 	local ns = create_namespace("mechanical")
 	set_hl_ns(ns)
 	for _, group in pairs(hl.langs) do vim_highlights(group) end
